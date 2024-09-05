@@ -1,0 +1,15 @@
+{
+    "name": "eruban/dd-openswoole-integration",
+    "description": "POC DDTrace instrumentation for OpenSwoole",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "files": [
+            "files/openswoole-integration.php"
+        ]
+    },
+    "require-dev": {
+        "datadog/dd-trace": "^1.3"
+    }
+}
